@@ -48,3 +48,13 @@ updates:
       patterns: ["rspec*"]
     sass:
       patterns: ["sass*"]
+
+- package-ecosystem: npm
+  directory: /server/src/main/webapp/WEB-INF/rails/node-vendor/angular
+  schedule:
+    interval: daily
+
+- package-ecosystem: npm
+  directory: /server/src/main/webapp/WEB-INF/rails/vendor/assets/fonts/opensans
+  schedule:
+    interval: daily
